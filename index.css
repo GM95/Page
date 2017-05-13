@@ -1,0 +1,43 @@
+ 
+ .background{
+	 background-image: url(https://cdn.pixabay.com/photo/2017/04/19/13/18/computer-2242274_960_720.jpg);
+	 background-size: cover;
+	 background-position: center center;
+	 position: relative;
+	 top: 0;
+	 bottom: 0;
+	 height: 100vh;
+	 z-index: -10;
+	 filter: contrast(100%);
+	 -moz-background-size: cover;
+	 background-color:	rbga(0,0,0,0.7);
+ }
+ .background-overlay {
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 height: 100%;
+	 width: 100%;
+	 z-index: -5;
+ }
+ .image-text{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 7vmin;
+	text-align: center;
+	color: #ffffb3;
+	
+ }
+.header{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive; 
+}
+
+ #MAPA {
+   width: 97.5%;
+   height: 400px;
+   background-color: grey;
+   float: none;
+ }
+ 
+	
+
